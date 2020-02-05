@@ -1,0 +1,28 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+<Qt_DEFINES_>UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;NDEBUG;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;QT_OPENGLEXTENSIONS_LIB;QT_GUI_LIB;QT_CORE_LIB</Qt_DEFINES_>
+<Qt_INCLUDEPATH_>E:\QT\5.14.1\msvc2017\include;E:\QT\5.14.1\msvc2017\include\QtOpenGL;E:\QT\5.14.1\msvc2017\include\QtWidgets;E:\QT\5.14.1\msvc2017\include\QtOpenGLExtensions;E:\QT\5.14.1\msvc2017\include\QtGui;E:\QT\5.14.1\msvc2017\include\QtANGLE;E:\QT\5.14.1\msvc2017\include\QtCore;/include;E:\QT\5.14.1\msvc2017\mkspecs\win32-msvc</Qt_INCLUDEPATH_>
+<Qt_LIBS_>E:\QT\5.14.1\msvc2017\lib\Qt5OpenGL.lib;E:\QT\5.14.1\msvc2017\lib\Qt5Widgets.lib;E:\QT\5.14.1\msvc2017\lib\Qt5OpenGLExtensions.lib;E:\QT\5.14.1\msvc2017\lib\Qt5Gui.lib;E:\QT\5.14.1\msvc2017\lib\Qt5Core.lib;E:\QT\5.14.1\msvc2017\lib\qtmain.lib;shell32.lib</Qt_LIBS_>
+<Qt_LIBPATH_>C:\opensslx86\lib;C:\Utils\my_sql\mysql-5.7.25-win32\lib;C:\Utils\postgresqlx86\pgsql\lib</Qt_LIBPATH_>
+<Qt_INCLUDEPATH_
+      >$(Qt_INCLUDEPATH_);Release\moc;Release\uic</Qt_INCLUDEPATH_>
+    <QtBkup_QtInstall
+      >msvc2017</QtBkup_QtInstall>
+    <QtBkup_QtModules
+      >core;gui;opengl;openglextensions;widgets</QtBkup_QtModules>
+    <QtBkup_QtPathBinaries
+      >bin</QtBkup_QtPathBinaries>
+    <QtBkup_QtPathLibraryExecutables
+      >bin</QtBkup_QtPathLibraryExecutables>
+    <QtBkup_QtHeaderSearchPath
+      ></QtBkup_QtHeaderSearchPath>
+    <QtBkup_QtLibrarySearchPath
+      ></QtBkup_QtLibrarySearchPath>
+    <QtBkup_QtVars
+      >DEFINES=/-D(\w+)/$1/;INCLUDEPATH=INCPATH/-I(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBS=/(?:\/LIBPATH:(?:\x22[^\x22]+\x22|[^\s]+))|(\x22[^\x22]+\x22|[^\s]+)/$1/;LIBPATH=LIBS/\/LIBPATH:(\x22[^\x22]+\x22|[^\s]+)/$1/</QtBkup_QtVars>
+    <QtBkup_QMakeCodeLines
+      ></QtBkup_QMakeCodeLines>
+    <QtBkup_QtBuildConfig
+      >release</QtBkup_QtBuildConfig>
+  </PropertyGroup>
+</Project>

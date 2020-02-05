@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestQtOpenglClass</class>
+ <widget class="QWidget" name="TestQtOpenglClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TestQtOpengl</string>
+  </property>
+  <widget class="XVedioWidget" name="openGLWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>470</y>
+     <width>611</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>XVedioWidget</class>
+   <extends>QOpenGLWidget</extends>
+   <header>XVedioWidget.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="TestQtOpengl.qrc"/>
+ </resources>
+ <connections/>
+</ui>

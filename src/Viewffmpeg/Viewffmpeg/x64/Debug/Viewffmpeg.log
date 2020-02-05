@@ -1,0 +1,4 @@
+﻿E:\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(438,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  main.cpp
+E:\QT\lesson_code\include\libavutil\rational.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Viewffmpeg.vcxproj -> E:\QT\lesson_code\src\Viewffmpeg\Viewffmpeg\..\..\..\bin\win64\Viewffmpeg.exe
